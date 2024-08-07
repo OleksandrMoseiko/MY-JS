@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work with forms</title>
+</head>
+<body>
+
+  <form action="/forms.html" method="get">
+    <label>
+    User <input 
+    type="text" 
+    required
+    name="user" 
+    placeholder="Enter the user name" /><br />
+    </label>
+
+    <label for="form-password">Password</label>
+     <input 
+     id="form-password"
+     type="password" 
+     name="password" 
+     placeholder="Enter the password" /><br />
+
+     
+    <textarea name="comment" rows="10" cols="40"></textarea>
+    <br />
+
+    <br />
+    <br />
+    <label for="form-checkbox">Keep logging in</label>    
+    <input type="checkbox" id="form-checkbox" />
+
+    <br />
+    <br />
+
+    <select name="type" size="3" multiple>
+      <option></option>
+      <option value="type_1">Type 1</option>
+      <option value="type_2">Type 2</option>
+      <option value="type_3">Type 3</option>
+    </select>
+
+    <input type="submit" value="Login" />
+  </form>
+  
+</body>
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pay form</title>
+</head>
+<body>
+
+  <h1>Payment form</h1>
+
+  <form action="/pay form.html" method="get">
+
+    <fieldset>
+      <legend>Payment form</legend>
+
+      <label>
+        Card Number
+        <input
+        type="text"
+        required
+        maxlength="19"
+        minlength="16"
+        name="card-number" />
+      </label>
+
+      <br />
+
+      <label>
+        Expiration month
+        <select 
+          required
+          name="expirstion-month">
+          <option></option>
+          <option value="01">01</option>
+          <option value="02">02</option>
+          <option value="03">03</option>
+          <option value="04">04</option>
+          <option value="05">05</option>
+          <option value="06">06</option>
+          <option value="07">07</option>
+          <option value="08">08</option>
+          <option value="09">09</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+      </label>
+
+      <label>
+        Expiration year
+        <select 
+          required
+          name="expirstion-year">
+          <option></option>
+          <option value="22">2022</option>
+          <option value="23">2023</option>
+          <option value="24">2024</option>
+          <option value="25">2025</option>
+          <option value="26">2026</option>
+        </select>
+      </label>
+
+      <br />
+
+      <label>
+        Cardholder Name
+        <input
+        required
+        name="name"
+        type="text" />
+      </label>
+
+      <br />
+
+      <label>
+        CVV
+        <input
+        maxlength="3"
+        required
+        type="password"
+        name="cvv" />
+      </label>
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+      <legend>Shipping</legend>
+
+      Shipping Service: <br />
+      <label>        
+        <input type="radio" name="shipping" value="NP" />
+        NP
+      </label>
+
+      <br />
+
+      <label>        
+        <input type="radio" name="shipping" value="meest" />
+        Meest express
+      </label>
+    </fieldset>
+
+    <br />
+
+    <fieldset>
+      <legend>User info</legend>
+      
+      <label for="payment-email">Send receipt to the Email: </label>
+      <input id="payment-email" type="email" name="email" />
+
+      <br />
+
+      <label for="payment-comment">Comment for the order:</label><br />
+      <textarea 
+        id="payment-comment" 
+        name="payment-comment"
+        rows="20"
+        cols="80"
+        ></textarea>
+    </fieldset>
+
+    <br />
+
+    <label>
+      <input type="checkbox" name="do-not-call" checked/>
+      Do not call me back
+    </label>
+
+    <br />
+
+    <a href="http://test,com/terms-of-service">Terms of service</a>
+
+    <br />
+    <br />
+
+    <input type="submit" value="Pay" />
+
+
+  </form>
+  
+</body>
+</html>
