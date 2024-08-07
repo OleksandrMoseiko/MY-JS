@@ -1,0 +1,24 @@
+li {
+  color: #afa;
+}
+
+#heading-1 {
+  color: red;
+}
+
+.green-text {
+  color: green;
+}
+
+li.green-text {
+  text-decoration: underline;
+}
+
+.wrapper {
+  color: brown;
+}
+
+.text {
+  text-decoration: underline;
+  color: red;
+}
