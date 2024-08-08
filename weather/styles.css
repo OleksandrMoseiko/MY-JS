@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./road.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 30%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.weather-widget {
+  border: rgb(70, 70, 219) solid 1px;
+  background-color: rgb(74, 124, 218);
+  color: white;
+  margin: 0 auto;
+}
+
+.heading-cell {
+  padding: 20px;
+  text-align: center;
+}
+
+.title-cell {
+  text-transform: uppercase;
+}
+
+.city-name {
+  font-weight: bold;
+}
+
+.temperature {
+  font-size: 2.5em;
+}
+
+.condition {
+  font-size: 1.2em;
+}
+
+.w-weather td {
+  padding: 5px 20px;
+}
+
+.w-weather td:nth-child(even) {
+  background-color: rgb(117, 117, 250);
+}
+
+.day-weather {
+  color: rgba(231, 155, 155, 0.527);
+}
+
+.night-weather {
+  color: rgb(59, 59, 184);
+}
