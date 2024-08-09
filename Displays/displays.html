@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .div1 {
+      background-color: aqua;
+      width: 20%;
+      height: 100px;
+      float: left;
+    }
+    
+    .div2 {
+      background-color: aquamarine;
+      /* display: inline; */
+      height: 100px;
+    }
+
+    .s1 {
+      background-color: bisque;
+      display: none;
+    }
+
+    .s2 {
+      color: aliceblue;
+      background-color: blue;
+    }
+
+    .s3 {
+      background-color: blueviolet;
+      color: #fff;
+      display: block;
+      margin-top: 20px;
+    }
+
+    .BMW-image {
+      width: 200px;
+      float: left;
+    }
+
+    .paragraph2 {
+      clear: both;
+    }
+
+    .wrapper-flex {
+      background: rgba(82, 74, 192, 0.267);
+      display: flex;
+      /* gap: 100px; */
+      /* justify-content: space-between; */
+      justify-content: space-around;
+      /* lex-direction: column; */
+      /* flex-direction: row-reverse; */
+    }
+
+    .wrapper-grid {
+      display: grid;
+      border: 1px solid #000;
+      grid-template-columns: 1fr 2fr 2fr;
+    }
+
+    .wrapper-grid > div {
+      border: 1px solid #000;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class="div1">
+    An airplane
+  </div> 
+
+  <div class="div2">
+    The word
+  </div>
+
+  <span class="s1">
+    Lorem
+  </span>
+
+  <span class="s2">
+    Ipsum
+  </span>
+
+  <span class="s3">
+    Donor
+  </span>
+
+  <p class="paragraph">
+    <img src="./44.jpeg" alt="the icon of the BMW" class="BMW-image" />
+    An airplane is a vehicle that has wings and one or more engines and is capable of moving through the air. The word
+    aircraft is also commonly used to refer to planes, though it can actually be used for other types of vehicles, such as
+    helicopters.
+  </p>
+
+  <p class="paragraph2">
+    An airplane is a vehicle that has wings and one or more engines and is capable of moving through the air. The word
+    aircraft is also commonly used to refer to planes, though it can actually be used for other types of vehicles, such as
+    helicopters.
+  </p>
+
+  <hr />
+
+  <div class="wrapper-flex">
+    <div class="left">
+      Left
+    </div>
+    <div class="center">
+      Center
+    </div>
+    <div class="right">
+      Right
+    </div>
+  </div>
+
+  <hr />
+
+  <div class="wrapper-grid">
+    <div class="left">
+      Left
+    </div>
+    <div class="center">
+      Center
+    </div>
+    <div class="right">
+      Right
+    </div>
+  </div>
+
+  
+</body>
+</html>

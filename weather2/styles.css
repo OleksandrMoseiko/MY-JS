@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.widget {
+  width: 540px;
+  background-image: url('./beach.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  /* padding: 15px; */
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather-info {
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.city-name {
+  font-size: 40px;
+}
+
+.weather-condition {
+  font-size: 14px;
+}
+
+.temperature {
+  font-size: 60px;
+}
+
+.condition-details {
+  font-size: 18px;
+}
+
+.days-weather {
+  border-top: 1px #fff solid;
+  border-bottom: 1px #fff solid;
+  padding: 30px 20px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 40px;
+}
+
+.days-weather > div {
+  text-align: center;
+}
+
+.next-day-info {
+  padding: 30px 0;
+}
+
+.next-day {
+  margin: 10px auto;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* grid for days weather */
+/* .parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+} */
